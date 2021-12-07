@@ -26,4 +26,12 @@ These features make it easy to find a memory leak or to identify a performance b
 1. Watch the presentation
 2. Install GHC-WPC: https://github.com/grin-compiler/ghc-whole-program-compiler-project#usage
 3. Clone this repository
-4. Reproduce the demo part of the presentation: https://youtu.be/wt6iCgYmVGA?t=2054
+4. Fix paths in the build scripts and stack.yaml files.  
+   i.e. in `demo-02-minigame/stack.yaml` fix this path to point to your ghc-wpc:
+   ```
+   # use local GHC (for development)
+   system-ghc: true
+   extra-path:
+     - /home/csaba/haskell/grin-compiler/ghc-whole-program-compiler-project/ghc-wpc/_build/stage1/bin
+   ```
+5. Reproduce the demo part of the presentation: https://youtu.be/wt6iCgYmVGA?t=2054
