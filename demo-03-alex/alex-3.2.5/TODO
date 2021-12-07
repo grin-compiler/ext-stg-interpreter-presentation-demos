@@ -1,0 +1,26 @@
+- Option for pure Haskell 98 output?
+	- maybe Haskell 2010 at this point?
+	- how about an option to use Data.Array.Unboxed?
+
+- Put in {-# LINE #-} pragmas for token actions
+
+- Prune states that aren't reachable?
+
+- Issue a warning for tokens that can't be generated?
+
+- Info file?
+	- start codes
+	- accepting states
+
+- More compact lexer table encoding:
+	- equivalence classes?
+
+- Improve performance of Alex itself
+
+- AlexEOF doesn't provide a way to get at the text position of the EOF.
+
+- Allow user-defined wrappers?  Wrappers in files relative to the
+  current directory, for example?
+
+- case-insensitivity option (like flex's -i).
+

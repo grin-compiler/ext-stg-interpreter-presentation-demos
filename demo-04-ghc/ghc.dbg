@@ -1,0 +1,13 @@
+wait-b
+
++b traceMarker# 191
+
++r traceMarker#
+
+c
+
+wait-b
+
+gc
+
+save-state .ghc-post-gc-post-link-stage

@@ -1,0 +1,9 @@
+set -x
+
+rm hello *.hi *.o *.o_modpak hello.o_ghc_stgapp
+
+cp `which ext-stg-interpreter` /home/csaba/haskell/grin-compiler/ghc-whole-program-compiler-project/ghc-wpc/_build/stage1/bin
+
+cat hello.hs
+
+/home/csaba/haskell/grin-compiler/ghc-whole-program-compiler-project/ghc-wpc/_build/stage1/bin/ext-stg-interpreter ghc.fullpak -d --debug-script ghc.dbg --args="-v -O2 hello.hs"

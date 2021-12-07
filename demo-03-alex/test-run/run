@@ -1,0 +1,3 @@
+set -e -x
+
+time ext-stg-interpreter -t alex.fullpak --args="Tokens.x -t ../alex-3.2.5/data"

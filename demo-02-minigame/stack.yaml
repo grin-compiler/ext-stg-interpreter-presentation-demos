@@ -1,0 +1,19 @@
+resolver: lts-15.6
+
+allow-newer: true
+
+packages:
+- 'minigame'
+- 'unordered-containers-0.2.10.0'
+
+apply-ghc-options: everything
+ghc-options:
+  "$everything": -split-sections -O2
+
+# use custom ext-stg whole program compiler GHC
+compiler:     ghc-8.11.0.20200527
+
+# use local GHC (for development)
+system-ghc: true
+extra-path:
+  - /home/csaba/haskell/grin-compiler/ghc-whole-program-compiler-project/ghc-wpc/_build/stage1/bin

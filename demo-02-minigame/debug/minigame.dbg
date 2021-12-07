@@ -1,0 +1,18 @@
+wait-b
+
++b main_Graphics.$wrenderFun 280
++r main_Graphics.$wrenderFun
+
+c
+
+wait-b
+
+?r main_Graphics.$wrenderFun
+
+gc
+
+?r-dump main_Graphics.$wrenderFun
+
+?r main_Graphics.$wrenderFun
+
+loaddb

@@ -1,0 +1,3 @@
+set -x -e
+
+ext-stg-interpreter -d --debug-script minigame.dbg minigame.fullpak
