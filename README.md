@@ -24,8 +24,10 @@ These features make it easy to find a memory leak or to identify a performance b
 ## Build & Run
 
 1. Watch the presentation
-2. Install External STG Interpreter: https://github.com/grin-compiler/ghc-whole-program-compiler-project/tree/master/external-stg-interpreter
-3. Install GHC-WPC: https://github.com/grin-compiler/ghc-whole-program-compiler-project#usage
+2. Install External STG Interpreter  
+   https://github.com/grin-compiler/ghc-whole-program-compiler-project/tree/master/external-stg-interpreter
+3. Install GHC-WPC  
+   https://github.com/grin-compiler/ghc-whole-program-compiler-project#usage
 4. Clone this repository
 5. Fix paths in the build scripts and stack.yaml files.  
    i.e. in `demo-02-minigame/stack.yaml` fix this path to point to your ghc-wpc:
@@ -35,4 +37,5 @@ These features make it easy to find a memory leak or to identify a performance b
    extra-path:
      - /home/csaba/haskell/grin-compiler/ghc-whole-program-compiler-project/ghc-wpc/_build/stage1/bin
    ```
-5. Reproduce the demo part of the presentation: https://youtu.be/wt6iCgYmVGA?t=2054
+5. Reproduce the demo part of the presentation  
+   https://youtu.be/wt6iCgYmVGA?t=2054
