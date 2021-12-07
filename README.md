@@ -24,9 +24,10 @@ These features make it easy to find a memory leak or to identify a performance b
 ## Build & Run
 
 1. Watch the presentation
-2. Install GHC-WPC: https://github.com/grin-compiler/ghc-whole-program-compiler-project#usage
-3. Clone this repository
-4. Fix paths in the build scripts and stack.yaml files.  
+2. Install External STG Interpreter: https://github.com/grin-compiler/ghc-whole-program-compiler-project/tree/master/external-stg-interpreter
+3. Install GHC-WPC: https://github.com/grin-compiler/ghc-whole-program-compiler-project#usage
+4. Clone this repository
+5. Fix paths in the build scripts and stack.yaml files.  
    i.e. in `demo-02-minigame/stack.yaml` fix this path to point to your ghc-wpc:
    ```
    # use local GHC (for development)
