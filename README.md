@@ -4,7 +4,7 @@ Demo programs of the presentation
 
 ## Why and How the External STG Interpreter is Useful
 
-**abstract**  
+**Abstract**  
 *The external STG interpreter is a from scratch implementation of the STG machine in Haskell.
 Currently it supports almost all GHC primops and RTS features.
 It can run real world Haskell programs that were compiled with GHC Whole Program Compiler (GHC-WPC).
