@@ -8,7 +8,7 @@ Demo programs of the presentation
 *The external STG interpreter is a from scratch implementation of the STG machine in Haskell.
 Currently it supports almost all GHC primops and RTS features.
 It can run real world Haskell programs that were compiled with GHC Whole Program Compiler (GHC-WPC).
-GHC-WPC is a GHC fork that exports the whole program STG IR.
+GHC-WPC is a GHC fork that exports the whole program STG IR.  
 The external STG interpreter is an excellent tool to study the runtime behaviour of Haskell programs, i.e. it can run/interpret GHC or Pandoc.
 The implementation of the interpreter is in plain simple Haskell, so it makes compiler backend and tooling development approachable for everyone.
 It already has a programmable debugger which supports step-by-step evaluation, breakpoints and execution region based inspection.
