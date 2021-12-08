@@ -23,7 +23,7 @@ These features make it easy to find a memory leak or to identify a performance b
 
 ## Build & Run
 
-**You'll need 15GB of free space**
+**You'll need 15GB of free space in total**
 
 1. Watch the presentation
 2. Install External STG Interpreter  
