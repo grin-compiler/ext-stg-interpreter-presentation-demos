@@ -18,6 +18,7 @@ These features make it easy to find a memory leak or to identify a performance b
 [![Watch the video](https://img.youtube.com/vi/wt6iCgYmVGA/hqdefault.jpg)](https://youtu.be/wt6iCgYmVGA)
 
 [youtube video](https://www.youtube.com/watch?v=wt6iCgYmVGA)  
+[youtube video with fullscreen view](https://www.youtube.com/watch?v=Ey5OFPkxF_w)  
 [slides](https://docs.google.com/presentation/d/1Lmfpwtx_7TbIAGYnSE0HqkawRu75y2GGwbObuu0xYPY/edit#slide=id.p)
 
 
