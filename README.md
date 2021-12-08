@@ -23,6 +23,8 @@ These features make it easy to find a memory leak or to identify a performance b
 
 ## Build & Run
 
+**You'll need 15GB of free space**
+
 1. Watch the presentation
 2. Install External STG Interpreter  
    https://github.com/grin-compiler/ghc-whole-program-compiler-project/tree/master/external-stg-interpreter
