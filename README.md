@@ -42,4 +42,4 @@ These features make it easy to find a memory leak or to identify a performance b
 5. Reproduce the demo part of the presentation  
    https://youtu.be/wt6iCgYmVGA?t=2054
 
-***If you have questions or if you have issues with the build steps please open an issue in this repo.***
+*If you have questions or if you have issues with the build steps please open an issue in this repo.*
