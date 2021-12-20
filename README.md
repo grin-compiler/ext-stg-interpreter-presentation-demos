@@ -27,12 +27,29 @@ These features make it easy to find a memory leak or to identify a performance b
 **You'll need 15GB of free space in total**
 
 1. Watch the presentation
-2. Install External STG Interpreter  
-   https://github.com/grin-compiler/ghc-whole-program-compiler-project/tree/master/external-stg-interpreter
+2. Clone this repository:
+   ```
+   git clone --recursive git@github.com:grin-compiler/ext-stg-interpreter-presentation-demos.git
+   ```
+2. Install External STG Interpreter
+   ```
+   cd ghc-whole-program-compiler-project/external-stg-interpreter
+   stack install
+   ```
+   see: https://github.com/grin-compiler/ghc-whole-program-compiler-project/tree/master/external-stg-interpreter#example-usage
 3. Install GHC-WPC  
-   https://github.com/grin-compiler/ghc-whole-program-compiler-project#usage
-4. Clone this repository
-5. Fix paths in the build scripts and stack.yaml files.  
+   ```
+   cd ghc-whole-program-compiler-project
+
+   (cd mod-pak ; stack install)
+
+   cd ghc-wpc
+   ./boot
+   ./configure
+   hadrian/build-stack -j
+   ```
+   see: https://github.com/grin-compiler/ghc-whole-program-compiler-project#usage
+4. Fix paths in the build scripts and stack.yaml files.  
    i.e. in `demo-02-minigame/stack.yaml` fix this path to point to your ghc-wpc:
    ```
    # use local GHC (for development)
