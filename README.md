@@ -57,7 +57,14 @@ These features make it easy to find a memory leak or to identify a performance b
    extra-path:
      - /home/csaba/haskell/grin-compiler/ghc-whole-program-compiler-project/ghc-wpc/_build/stage1/bin
    ```
-5. Reproduce the demo part of the presentation  
+5. Compile `unzip` with zstd support **(optional)**  
+   You'll need this to browse the content of `.modpak` and `.fullpak` files manually.
+   ```
+   cd unzip-zstd
+   make -f unix/Makefile generic_zstd
+   cp unzip $HOME/.local/bin
+   ```
+6. Reproduce the demo part of the presentation  
    https://youtu.be/wt6iCgYmVGA?t=2054
 
 *If you have questions or if you have issues with the build steps please open an issue in this repo.*
