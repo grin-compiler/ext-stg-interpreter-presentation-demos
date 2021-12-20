@@ -44,3 +44,45 @@ These features make it easy to find a memory leak or to identify a performance b
    https://youtu.be/wt6iCgYmVGA?t=2054
 
 *If you have questions or if you have issues with the build steps please open an issue in this repo.*
+
+
+### Docker instructions
+**You'll need 15GB of free space in total**
+This is an option if you're familiar with docker and don't want to build a compiler.
+The container comes with ghc-wpc and ext-stg-interpreter build and the demo files are
+available in `/root/`.
+1. Watch the presentation
+2. (optional) disable access control for X,
+   this allows you to run X applications from within the container,
+   but keep in mind this makes your system slightly less secure.
+   ```
+   xhost +
+   ```
+3. Run the container, it'll fetch it from dockerhub if not found:
+   ```
+   docker run -v /tmp/.X11-unix:/tmp/.X11-unix -it jappie/ext-stg-demo
+   ```
+4. Reproduce the demo part of the presentation
+   https://youtu.be/wt6iCgYmVGA?t=2054
+
+
+#### Docker build instructions
+
+1. Watch the presentation
+2. Clone this repository:
+   ```
+   git clone --recursive git@github.com:grin-compiler/ext-stg-interpreter-presentation-demos.git
+   ```
+3. ```
+   cd ext-stg-interpreter-presentation-demos
+   git submodule update --init --recursive
+   docker build .
+   xhost +
+   docker run -v /tmp/.X11-unix:/tmp/.X11-unix -it whateverhash bash
+   ```
+
+4. Reproduce the demo part of the presentation  
+   https://youtu.be/wt6iCgYmVGA?t=2054
+
++ note that the compiler lives in /root/ghc-whole-program-compiler-project/ghc-wpc/_build/stage1/bin/ghc
++ you can install additional programs with apt

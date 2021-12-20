@@ -1,0 +1,6 @@
+[submodule "ghc-whole-program-compiler-project"]
+	path = ghc-whole-program-compiler-project
+	url = git@github.com:grin-compiler/ghc-whole-program-compiler-project.git
+[submodule "unzip-zstd"]
+	path = unzip-zstd
+	url = git@github.com:csabahruska/unzip-zstd.git
